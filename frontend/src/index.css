@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Solana wallet adapter overrides for dark theme */
+.wallet-adapter-button {
+  background: linear-gradient(135deg, #9945FF 0%, #14F195 100%) !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  transition: opacity 0.2s !important;
+}
+.wallet-adapter-button:hover {
+  opacity: 0.85 !important;
+}
+.wallet-adapter-modal-wrapper {
+  background-color: #1a1a2e !important;
+}
+.wallet-adapter-modal-title {
+  color: #ffffff !important;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0e0e1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a4a;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9945FF;
+}
