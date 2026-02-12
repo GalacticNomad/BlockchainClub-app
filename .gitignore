@@ -16,6 +16,9 @@ frontend/dist/
 __pycache__/
 *.pyc
 
+# Cursor IDE
+.cursor/
+
 # OS files
 .DS_Store
 Thumbs.db
