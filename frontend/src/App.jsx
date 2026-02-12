@@ -43,7 +43,7 @@ export default function App() {
                 <div className="flex items-center justify-between h-16">
                   {/* Logo */}
                   <Link to="/" className="flex items-center gap-2">
-                    <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Blockchain Club" className="w-8 h-8 rounded-lg" />
+                    <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Blockchain Club" className="w-8 h-8 rounded-full" />
                     <span className="font-bold text-lg text-white hidden sm:block">
                       Blockchain Club
                     </span>
