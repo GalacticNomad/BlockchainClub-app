@@ -17,9 +17,7 @@ export default function Home({ auth }) {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="text-center">
             {/* Logo */}
-            <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-solana mb-8">
-              <span className="text-3xl font-bold text-white">BC</span>
-            </div>
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Blockchain Club" className="w-20 h-20 rounded-2xl mb-8 inline-block" />
 
             <h1 className="text-4xl sm:text-6xl font-bold text-white mb-6 leading-tight">
               Welcome to the{' '}
